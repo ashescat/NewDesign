@@ -61,7 +61,8 @@ url('../fonts/Muli-Regular.svg#Muli-Regular') format('svg');
 	font-weight: bold;
 	font-style: bold;
 }
-/*------------------------- Header ------------------------*/ .sidebar {
+/*------------------------- Header ------------------------*/
+.sidebar {
 	width:229px;
 	float:left;
 	height:auto;
@@ -78,6 +79,8 @@ url('../fonts/Muli-Regular.svg#Muli-Regular') format('svg');
 .sidebar ul li {
 	text-align:center;
 	padding:29px 27px 0 0;
+	font-family:Yi Mincho;
+	font-weight:99;
 }
 .sidebar ul li.selected a, .sidebar ul li a:hover {
 	color:#6b6b6b;
