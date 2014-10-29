@@ -77,8 +77,41 @@ Presidential Search</h2>
 template has been designed by Free Website Templates for you, for free. 
 You can replace all this text with your own text.-->
 					</p>
-					<img src="images/tree.png" 
-alt="" hspace="130" vspace="30">
+					
+					
+					
+					<script type="text/javascript">
+var image1 = new Image()
+image1.src = "images/people1.jpg"
+var image2 = new Image()
+image2.src = "images/people2.jpg"
+var image3 = new Image()
+image3.src = "images/people3.jpg"
+var image4 = new Image()
+image4.src = "images/people4.jpg"
+var image5 = new Image()
+image5.src = "images/people5.jpg"
+</script>
+<p><img src="images/people1.jpg" height="450" hspace="40" name="slide" /></p>
+<script type="text/javascript">
+        var step=1;
+        function slideit()
+        {
+            document.images.slide.src = eval("image"+step+".src");
+            if(step<5)
+                step++;
+            else
+                step=1;
+            setTimeout("slideit()",2000);
+        }
+        slideit();
+</script>
+					
+					
+					
+					
+					<!--<img src="images/tree.png" 
+alt="" hspace="130" vspace="30">-->
 					<div>
 						<h3><span>2014年本校校長遴選第二階段公告</span></h3>
 						<p>
